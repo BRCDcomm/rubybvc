@@ -4,15 +4,19 @@ if [ "$branch" != "master" ]
 then
    echo "You can only run this script from the master branch"
 else
-   cd doc
-   rm ../../rubydevDocsForGhPagesBranch.zip
-   zip -r ../../rubydevDocsForGhPagesBranch.zip *
-   git checkout gh-pages
-   branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
-   if [ "$branch" != "gh-pages" ]
-   then
-      echo "Unable to checkout the gh-pages branch, perhaps you have uncommitted changes on master?  Aborting..."
+   if [ -d "$DIRECTORY" ]; then
+       cd doc
+       rm ../../rubydevDocsForGhPagesBranch.zip
+       zip -r ../../rubydevDocsForGhPagesBranch.zip *
+       git checkout gh-pages
+       branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+       if [ "$branch" != "gh-pages" ]
+       then
+          echo "Unable to checkout the gh-pages branch, perhaps you have uncommitted changes on master?  Aborting..."
+       else
+          unzip ../rubydevDocsForGhPagesBranch.zip
+       fi
    else
-      unzip ../rubydevDocsForGhPagesBranch.zip
+      echo "No doc folder.  Be sure you have run ./dodoc before trying to publish."
    fi
 fi
