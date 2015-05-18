@@ -9,6 +9,7 @@ else
        cd $DIRECTORY 
        rm ../../rubydevDocsForGhPagesBranch.zip
        zip -r ../../rubydevDocsForGhPagesBranch.zip *
+       cd ..
        git checkout gh-pages
        branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
        if [ "$branch" != "gh-pages" ]
