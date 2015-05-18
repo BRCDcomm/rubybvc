@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Match - RDoc Documentation</title>
+
+<link href="./fonts.css" rel="stylesheet">
+<link href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/search_index.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/searcher.js"></script>
+<script src="./js/darkfish.js"></script>
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link">Object
+  
+</div>
+
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-c-new">::new</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Match">
+  <h1 id="class-Match" class="class">
+    class Match
+  </h1>
+
+  <section class="description">
+    
+<p>Class that represents OpenFlow flow matching attributes</p>
+
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      
+      <div id="attribute-i-arp_op_code" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">arp_op_code</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : ARP opcode</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-arp_src_hw_addr" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">arp_src_hw_addr</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : ARP source hardware address.  e.g. “111.222.333.444”</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-arp_src_ipv4" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">arp_src_ipv4</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : ARP source IPv4 address.  e.g. “111.222.333.444”</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-arp_tgt_hw_addr" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">arp_tgt_hw_addr</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : ARP target hardware address.  e.g. “111.222.333.444”</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-arp_tgt_ipv4" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">arp_tgt_ipv4</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : ARP target IPv4 address.  e.g. “111.222.333.444”</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-eth_type" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">eth_type</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Ethernet type</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ethernet_dst" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ethernet_dst</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : Ethernet Destination address e.g. “00:11:22:33:44:55”</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ethernet_src" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ethernet_src</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : Ethernet Source address e.g. “00:11:22:33:44:55”</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-icmpv4_code" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">icmpv4_code</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : ICMPv4 code</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-icmpv4_type" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">icmpv4_type</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : ICMPv4 type</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-icmpv6_code" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">icmpv6_code</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : ICMPv6 code</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-icmpv6_type" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">icmpv6_type</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : ICMPv6 type</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-in_phy_port" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">in_phy_port</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Input physical port - not used for matches</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-in_port" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">in_port</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Input port</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ip_dscp" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ip_dscp</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Differentiated Services Code Point</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ip_ecn" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ip_ecn</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Explicit Congestion Notificaiton</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ip_proto" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ip_proto</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Ip protocol</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ipv4_dst" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ipv4_dst</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : IPv4 Destination IP address</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ipv4_src" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ipv4_src</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : IPv4 Source IP address</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ipv6_dst" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ipv6_dst</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : IPv6 Destination IP address</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ipv6_ext_hdr" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ipv6_ext_hdr</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : IPv6 Extension header</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ipv6_flabel" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ipv6_flabel</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : IPv6 Flow Label</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-ipv6_src" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ipv6_src</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>string : IPv6 Source IP address</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-metadata" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">metadata</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Openflow intra-table metadata</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-metadata_mask" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">metadata_mask</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Openflow intra-table metadata mask</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-mpls_bos" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">mpls_bos</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Multiprotocol Label Switching bottom of stack flag</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-mpls_label" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">mpls_label</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Multiprotocol Label Switching label</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-mpls_tc" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">mpls_tc</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Multiprotocol Label Switching traffic class</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-sctp_dst" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">sctp_dst</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Stream control transmission protocol destination port</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-sctp_src" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">sctp_src</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : Stream control transmission protocol source port</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-tcp_dst_port" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">tcp_dst_port</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : TCP Destination port number</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-tcp_src_port" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">tcp_src_port</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : TCP Source port number</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-tunnel_id" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">tunnel_id</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : tunnel identifier</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-udp_dst_port" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">udp_dst_port</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : UDP Destination port number</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-udp_src_port" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">udp_src_port</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer : UDP Source port number</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-vlan_id" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">vlan_id</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer: VLAN identifier</p>
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-vlan_pcp" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">vlan_pcp</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <p>integer: VLAN priority code point</p>
+        
+        </div>
+      </div>
+      
+    </section>
+    
+
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(eth_type: nil, ipv4_destination: nil, ipv4_source: nil, ipv6_source: nil, ipv6_destination: nil, ipv6_flabel: nil, ipv6_ext_header: nil, ethernet_destination: nil, ethernet_source: nil, in_port: nil, in_physical_port: nil, ip_protocol_num: nil, ip_dscp: nil, ip_ecn: nil, tcp_source_port: nil, tcp_destination_port: nil, udp_source_port: nil, udp_destination_port: nil, icmpv4_type: nil, icmpv4_code: nil, icmpv6_type: nil, icmpv6_code: nil, arp_op_code: nil, arp_source_ipv4: nil, arp_target_ipv4: nil, arp_source_hardware_address: nil, arp_target_hardware_address: nil, vlan_id: nil, vlan_pcp: nil, sctp_destination: nil, sctp_source: nil, mpls_label: nil, mpls_tc: nil, mpls_bos: nil, tunnel_id: nil, metadata: nil, metadata_mask: nil)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p><em>Parameters</em></p>
+<ul><li><dl class="rdoc-list note-list"><dt><code>eth_type</code>
+<dd>
+<p>integer : Ethernet type</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ipv4_destination</code>
+<dd>
+<p>string : IPv4 Destination IP address</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ipv4_source</code>
+<dd>
+<p>string : IPv4 Source IP address</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ipv6_source</code>
+<dd>
+<p>string : IPv6 Source IP address</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ipv6_destination</code>
+<dd>
+<p>string : IPv6 Destination IP address</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ipv6_flabel</code>
+<dd>
+<p>string : IPv6 Flow Label</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ipv6_ext_header</code>
+<dd>
+<p>integer : IPv6 Extension header</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ethernet_destination</code>
+<dd>
+<p>string : Ethernet Destination address e.g. “00:11:22:33:44:55”</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ethernet_source</code>
+<dd>
+<p>string : Ethernet Source address e.g. “00:11:22:33:44:55”</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>in_physical_port</code>
+<dd>
+<p>integer : Input physical port - not used for matches</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>in_port</code>
+<dd>
+<p>integer : Input port</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ip_protocol_num</code>
+<dd>
+<p>integer : Ip protocol</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ip_dscp</code>
+<dd>
+<p>integer : Differentiated Services Code Point</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>ip_ecn</code>
+<dd>
+<p>integer : Explicit Congestion Notificaiton</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>tcp_source_port</code>
+<dd>
+<p>integer : TCP Source port number</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>tcp_destination_port</code>
+<dd>
+<p>integer : TCP Destination port number</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>udp_source_port</code>
+<dd>
+<p>integer : UDP Source port number</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>udp_destination_port</code>
+<dd>
+<p>integer : UDP Destination port number</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>icmpv4_type</code>
+<dd>
+<p>integer : ICMPv4 type</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>icmpv4_code</code>
+<dd>
+<p>integer : ICMPv4 code</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>icmpv6_type</code>
+<dd>
+<p>integer : ICMPv6 type</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>icmpv6_code</code>
+<dd>
+<p>integer : ICMPv6 code</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>arp_op_code</code>
+<dd>
+<p>integer : ARP opcode</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>arp_source_ipv4</code>
+<dd>
+<p>string : ARP source IPv4 address.  e.g. “111.222.333.444”</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>arp_target_ipv4</code>
+<dd>
+<p>string : ARP target IPv4 address.  e.g. “111.222.333.444”</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>arp_source_hardware_address</code>
+<dd>
+<p>string : ARP source hardware address.  e.g. “111.222.333.444”</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>arp_target_hardware_address</code>
+<dd>
+<p>string : ARP target hardware address.  e.g. “111.222.333.444”</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>vlan_id</code>
+<dd>
+<p>integer: VLAN identifier</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>vlan_pcp</code>
+<dd>
+<p>integer: VLAN priority code point</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>sctp_destination</code>
+<dd>
+<p>integer : Stream control transmission protocol destination port</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>sctp_source</code>
+<dd>
+<p>integer : Stream control transmission protocol source port</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>mpls_label</code>
+<dd>
+<p>integer : Multiprotocol Label Switching label</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>mpls_tc</code>
+<dd>
+<p>integer : Multiprotocol Label Switching traffic class</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>mpls_bos</code>
+<dd>
+<p>integer : Multiprotocol Label Switching bottom of stack flag</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>tunnel_id</code>
+<dd>
+<p>integer : tunnel identifier</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>metadata</code>
+<dd>
+<p>integer : Openflow intra-table metadata</p>
+</dd></dl>
+</li><li><dl class="rdoc-list note-list"><dt><code>metadata_mask</code>
+<dd>
+<p>integer : Openflow intra-table metadata mask</p>
+</dd></dl>
+</li></ul>
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/openflowdev/match.rb, line 151</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">eth_type</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ipv4_destination</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ipv4_source</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">ipv6_source</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ipv6_destination</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ipv6_flabel</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">ipv6_ext_header</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ethernet_destination</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ethernet_source</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">in_port</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">in_physical_port</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ip_protocol_num</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ip_dscp</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">ip_ecn</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">tcp_source_port</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">tcp_destination_port</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">udp_source_port</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">udp_destination_port</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">icmpv4_type</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">icmpv4_code</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">icmpv6_type</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">icmpv6_code</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">arp_op_code</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">arp_source_ipv4</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">arp_target_ipv4</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">arp_source_hardware_address</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">arp_target_hardware_address</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">vlan_id</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">vlan_pcp</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">sctp_destination</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">sctp_source</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">mpls_label</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">mpls_tc</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">mpls_bos</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">tunnel_id</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>,
+    <span class="ruby-identifier">metadata</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">metadata_mask</span><span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>)
+  <span class="ruby-ivar">@eth_type</span> = <span class="ruby-identifier">eth_type</span>
+  <span class="ruby-ivar">@ipv4_dst</span> = <span class="ruby-identifier">ipv4_destination</span>
+  <span class="ruby-ivar">@ipv4_src</span> = <span class="ruby-identifier">ipv4_source</span>
+  <span class="ruby-ivar">@ipv6_dst</span> = <span class="ruby-identifier">ipv6_destination</span>
+  <span class="ruby-ivar">@ipv6_src</span> = <span class="ruby-identifier">ipv6_source</span>
+  <span class="ruby-ivar">@ipv6_flabel</span> = <span class="ruby-identifier">ipv6_flabel</span>
+  <span class="ruby-ivar">@ipv6_ext_hdr</span> = <span class="ruby-identifier">ipv6_ext_header</span>
+  <span class="ruby-ivar">@ethernet_dst</span> = <span class="ruby-identifier">ethernet_destination</span>
+  <span class="ruby-ivar">@ethernet_src</span> = <span class="ruby-identifier">ethernet_source</span>
+  <span class="ruby-ivar">@in_port</span> = <span class="ruby-identifier">in_port</span>
+  <span class="ruby-ivar">@in_phy_port</span> = <span class="ruby-identifier">in_physical_port</span>
+  <span class="ruby-ivar">@ip_proto</span> = <span class="ruby-identifier">ip_protocol_num</span>
+  <span class="ruby-ivar">@ip_dscp</span> = <span class="ruby-identifier">ip_dscp</span>
+  <span class="ruby-ivar">@ip_ecn</span> = <span class="ruby-identifier">ip_ecn</span>
+  <span class="ruby-ivar">@tcp_src_port</span> = <span class="ruby-identifier">tcp_source_port</span>
+  <span class="ruby-ivar">@tcp_dst_port</span> = <span class="ruby-identifier">tcp_destination_port</span>
+  <span class="ruby-ivar">@udp_dst_port</span> = <span class="ruby-identifier">udp_destination_port</span>
+  <span class="ruby-ivar">@udp_src_port</span> = <span class="ruby-identifier">udp_source_port</span>
+  <span class="ruby-ivar">@icmpv4_type</span> = <span class="ruby-identifier">icmpv4_type</span>
+  <span class="ruby-ivar">@icmpv4_code</span> = <span class="ruby-identifier">icmpv4_code</span>
+  <span class="ruby-ivar">@icmpv6_type</span> = <span class="ruby-identifier">icmpv6_type</span>
+  <span class="ruby-ivar">@icmpv6_code</span> = <span class="ruby-identifier">icmpv6_code</span>
+  <span class="ruby-ivar">@arp_op_code</span> = <span class="ruby-identifier">arp_op_code</span>
+  <span class="ruby-ivar">@arp_src_ipv4</span> = <span class="ruby-identifier">arp_source_ipv4</span>
+  <span class="ruby-ivar">@arp_tgt_ipv4</span> = <span class="ruby-identifier">arp_target_ipv4</span>
+  <span class="ruby-ivar">@arp_src_hw_addr</span> = <span class="ruby-identifier">arp_source_hardware_address</span>
+  <span class="ruby-ivar">@arp_tgt_hw_addr</span> = <span class="ruby-identifier">arp_target_hardware_address</span>
+  <span class="ruby-ivar">@vlan_id</span> = <span class="ruby-identifier">vlan_id</span>
+  <span class="ruby-ivar">@vlan_pcp</span> = <span class="ruby-identifier">vlan_pcp</span>
+  <span class="ruby-ivar">@sctp_dst</span> = <span class="ruby-identifier">sctp_destination</span>
+  <span class="ruby-ivar">@sctp_src</span> = <span class="ruby-identifier">sctp_source</span>
+  <span class="ruby-ivar">@mpls_label</span> = <span class="ruby-identifier">mpls_label</span>
+  <span class="ruby-ivar">@mpls_tc</span> = <span class="ruby-identifier">mpls_tc</span>
+  <span class="ruby-ivar">@mpls_bos</span> = <span class="ruby-identifier">mpls_bos</span>
+  <span class="ruby-ivar">@tunnel_id</span> = <span class="ruby-identifier">tunnel_id</span>
+  <span class="ruby-ivar">@metdata</span> = <span class="ruby-identifier">metadata</span>
+  <span class="ruby-ivar">@metadata_mask</span> = <span class="ruby-identifier">metadata_mask</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://rdoc.rubyforge.org">RDoc</a> 4.1.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
