@@ -5,7 +5,7 @@ then
    echo "You can only run this script from the master branch"
 else
    rm ../rubydevDocsForGhPagesBranch.zip
-   zip -r ../rubydevDocsForGhPagesBranch.zip docsForGhPagesBranch/*
+   zip -r ../rubydevDocsForGhPagesBranch.zip doc/*
    git checkout gh-pages
    branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
    if [ "$branch" != "gh-pages" ]
