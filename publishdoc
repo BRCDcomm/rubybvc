@@ -1,4 +1,5 @@
 branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+DIRECTORY="doc"
 echo $branch
 if [ "$branch" != "master" ]
 then
