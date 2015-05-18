@@ -6,7 +6,7 @@ then
    echo "You can only run this script from the master branch"
 else
    if [ -d "$DIRECTORY" ]; then
-       cd doc
+       cd $DIRECTORY 
        rm ../../rubydevDocsForGhPagesBranch.zip
        zip -r ../../rubydevDocsForGhPagesBranch.zip *
        git checkout gh-pages
