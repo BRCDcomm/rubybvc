@@ -1,5 +1,8 @@
 # rubybvc
-Ruby framework to program your network via the Brocade Vyatta Controller
+Ruby gem to program your network via the Brocade Vyatta Controller
+
+## Other Brocade Vyatta Controller libraries 
+* pybvc - Python library for programming BVC:  https://github.com/BRCDcomm/pybvc 
 
 ## Current Version:
 1.0.0
