@@ -38,6 +38,7 @@ gem list rubybvc
 
 
 ## Documentation:
+   - [Video introduction](https://www.youtube.com/watch?v=dZxZAtg3R0A)
    - [Programmer's Reference](http://brcdcomm.github.io/rubybvc/)
 
 ## Sample Applications:
